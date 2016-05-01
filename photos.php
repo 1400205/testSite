@@ -1,6 +1,12 @@
 <?php
+session_start();
+
+?>
+<?php
 	include("check.php");
 	include("userphotos.php");
+$login_user= $_SESSION["username"];
+
 ?>
 
 <!doctype html>
